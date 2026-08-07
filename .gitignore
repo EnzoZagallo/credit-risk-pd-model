@@ -1,0 +1,26 @@
+# Data
+data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+kaggle.json
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# MLflow / experiments
+mlruns/
+*.log
