@@ -20,16 +20,17 @@ production-ready system.
 
 **Status:** Work in progress.
 
-## Structure (planned)
+## Structure
 
-- `notebooks/01_eda.ipynb` — Exploratory data analysis
-- `notebooks/02_scorecard_woe_lr.ipynb` — WoE binning and logistic regression scorecard
-- `notebooks/03_challenger_lightgbm.ipynb` — LightGBM challenger + SHAP
-- `notebooks/04_ifrs9_ecl.ipynb` — IFRS 9 Expected Credit Loss (appendix)
-- `notebooks/05_validation.ipynb` — Model validation
-- `src/` — Reusable feature engineering, modeling, and evaluation code
-- `reports/` — Model validation report and executive summary
-- 'configs/' - Configuration files (hyperparameters, paths, model settings)
+- `notebooks/01_eda.ipynb`: Exploratory data analysis
+- `notebooks/02_data_preparation.ipynb`: Cleaning, feature engineering and train/test split
+- `notebooks/03_scorecard_woe_lr.ipynb`: WoE binning and logistic regression scorecard *(planned)*
+- `notebooks/04_challenger_lightgbm.ipynb`: LightGBM challenger and SHAP *(planned)*
+- `notebooks/05_ifrs9_ecl.ipynb`: IFRS 9 Expected Credit Loss appendix *(planned)*
+- `notebooks/06_validation.ipynb`: Model validation and fairness testing *(planned)*
+- `configs/`: Fitted preparation parameters and modelling settings
+- `src/`: Reusable feature engineering, modeling and evaluation code
+- `reports/`: Model validation report and executive summary
 
 ## Ethical and regulatory considerations
 
@@ -43,13 +44,17 @@ modeling choices in this project:
   model because point-scaled logistic regression is auditable at the
   feature level, which is a regulatory expectation rather than a
   preference.
+- **Protected attributes excluded.** `CODE_GENDER` is not used as a
+  predictor, since EU Directive 2004/113/EC prohibits sex discrimination in
+  access to goods and services. It is retained only to test the model's
+  outputs for gender disparities.
 - **Explainability for challengers.** SHAP is applied to the LightGBM
   model to make its predictions defensible at both the population and
   individual level.
 - **Proxy discrimination.** Features that correlate with protected
   attributes (gender, age, national origin) can encode indirect bias
   even when protected attributes are excluded. A brief fairness
-  discussion is included in the validation notebook.
+  discussion is included in the validation notebook (06).
 - **Scope of this project.** This is a demonstration model built on a
   public dataset. It is not intended for deployment and would require
   formal model validation, independent review, and fairness testing
@@ -58,6 +63,7 @@ modeling choices in this project:
 ## Data
 
 Source: [Home Credit Default Risk (Kaggle)](https://www.kaggle.com/competitions/home-credit-default-risk).
+
 Raw data is not committed. 
 
 See "Reproducibility" below.
@@ -73,3 +79,6 @@ pip install -r requirements.txt
 kaggle competitions download -c home-credit-default-risk -p data/raw
 cd data/raw && tar -xf home-credit-default-risk.zip
 ```
+
+Run the notebooks in numerical order: each one reads the output of the
+previous notebook from `data/processed/`.
