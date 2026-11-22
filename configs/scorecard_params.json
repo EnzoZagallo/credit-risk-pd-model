@@ -1,0 +1,81 @@
+{
+  "features": [
+    "EXT_SOURCE_3",
+    "EXT_SOURCE_2",
+    "ANNUITY_CREDIT_RATIO",
+    "EXT_SOURCE_1",
+    "YEARS_EMPLOYED",
+    "CREDIT_GOODS_RATIO",
+    "OCCUPATION_TYPE",
+    "ORGANIZATION_TYPE",
+    "REGION_RATING_CLIENT_W_CITY",
+    "NAME_EDUCATION_TYPE",
+    "YEARS_LAST_PHONE_CHANGE",
+    "FLOORSMAX_AVG",
+    "YEARS_ID_PUBLISH",
+    "FLAG_DOCUMENT_3",
+    "AMT_ANNUITY",
+    "YEARS_REGISTRATION",
+    "REG_CITY_NOT_LIVE_CITY",
+    "OWN_CAR_AGE",
+    "NAME_FAMILY_STATUS"
+  ],
+  "binning": {
+    "max_n_bins": 6,
+    "min_bin_size": 0.05,
+    "known_trends": {
+      "EXT_SOURCE_1": "descending",
+      "EXT_SOURCE_2": "descending",
+      "EXT_SOURCE_3": "descending",
+      "YEARS_BIRTH": "descending",
+      "CREDIT_INCOME_RATIO": "peak",
+      "ANNUITY_INCOME_RATIO": "ascending",
+      "CREDIT_GOODS_RATIO": "ascending",
+      "ANNUITY_CREDIT_RATIO": null
+    }
+  },
+  "selection": {
+    "iv_threshold": 0.02,
+    "corr_threshold": 0.7,
+    "removed_wrong_sign": [
+      "YEARS_BIRTH",
+      "REG_CITY_NOT_WORK_CITY",
+      "AMT_CREDIT"
+    ],
+    "removed_near_zero": [
+      "NAME_INCOME_TYPE",
+      "REGION_POPULATION_RELATIVE"
+    ]
+  },
+  "scaling": {
+    "pdo": 20,
+    "target_score": 600,
+    "target_odds": 50,
+    "factor": 28.85390081777927,
+    "offset": 487.1228762045055
+  },
+  "model": {
+    "intercept": -2.4325988655508,
+    "coefficients": {
+      "EXT_SOURCE_3": -0.8188684015631289,
+      "EXT_SOURCE_2": -0.716345148635135,
+      "ANNUITY_CREDIT_RATIO": -0.5336419466507459,
+      "EXT_SOURCE_1": -0.4763798659871004,
+      "YEARS_EMPLOYED": -0.2860208981317625,
+      "CREDIT_GOODS_RATIO": -0.4473080610668314,
+      "OCCUPATION_TYPE": -0.25332903926885814,
+      "ORGANIZATION_TYPE": -0.3238010313014466,
+      "REGION_RATING_CLIENT_W_CITY": -0.28451033791789604,
+      "NAME_EDUCATION_TYPE": -0.5095179201144373,
+      "YEARS_LAST_PHONE_CHANGE": -0.22181378363436471,
+      "FLOORSMAX_AVG": -0.34800517576884704,
+      "YEARS_ID_PUBLISH": -0.20177495170541165,
+      "FLAG_DOCUMENT_3": -0.19823105146970088,
+      "AMT_ANNUITY": -0.37509801414078,
+      "YEARS_REGISTRATION": -0.14607960705268302,
+      "REG_CITY_NOT_LIVE_CITY": -0.19804192099065673,
+      "OWN_CAR_AGE": -0.5148124603684959,
+      "NAME_FAMILY_STATUS": -0.20927945051928257
+    }
+  }
+}

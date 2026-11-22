@@ -1,0 +1,171 @@
+characteristic,bin,count,event_rate,woe,points
+EXT_SOURCE_3,"(-inf, 0.18)",12524,0.2216,-1.176,2
+EXT_SOURCE_3,"[0.18, 0.32)",23809,0.1418,-0.632,14
+EXT_SOURCE_3,"[0.32, 0.46)",37694,0.0901,-0.1203,26
+EXT_SOURCE_3,"[0.46, 0.57)",35699,0.0622,0.2804,36
+EXT_SOURCE_3,"[0.57, 0.70)",51748,0.0451,0.6197,44
+EXT_SOURCE_3,"[0.70, inf)",35769,0.0334,0.9325,51
+EXT_SOURCE_3,Special,0,0.0,0.0,29
+EXT_SOURCE_3,Missing,48765,0.0935,-0.1612,26
+EXT_SOURCE_2,"(-inf, 0.14)",12734,0.2205,-1.1698,5
+EXT_SOURCE_2,"[0.14, 0.26)",19146,0.1402,-0.6192,17
+EXT_SOURCE_2,"[0.26, 0.45)",44842,0.1049,-0.2888,23
+EXT_SOURCE_2,"[0.45, 0.62)",75749,0.0736,0.1008,31
+EXT_SOURCE_2,"[0.62, 0.71)",59392,0.0501,0.5104,40
+EXT_SOURCE_2,"[0.71, inf)",33612,0.0319,0.9805,50
+EXT_SOURCE_2,Special,0,0.0,0.0,29
+EXT_SOURCE_2,Missing,533,0.0826,-0.0243,29
+ANNUITY_CREDIT_RATIO,"(-inf, 0.05)",99525,0.0637,0.2549,33
+ANNUITY_CREDIT_RATIO,"[0.05, 0.05)",20726,0.1472,-0.6758,19
+ANNUITY_CREDIT_RATIO,"[0.05, 0.05)",23981,0.0538,0.4348,36
+ANNUITY_CREDIT_RATIO,"[0.05, 0.09)",75593,0.1048,-0.2877,25
+ANNUITY_CREDIT_RATIO,"[0.09, 0.11)",13860,0.0264,1.1749,47
+ANNUITY_CREDIT_RATIO,"[0.11, inf)",12313,0.072,0.1233,31
+ANNUITY_CREDIT_RATIO,Special,0,0.0,0.0,29
+ANNUITY_CREDIT_RATIO,Missing,10,0.0,0.0,29
+EXT_SOURCE_1,"(-inf, 0.30)",21768,0.1439,-0.6491,20
+EXT_SOURCE_1,"[0.30, 0.42)",18653,0.0896,-0.1144,28
+EXT_SOURCE_1,"[0.42, 0.57)",22608,0.0652,0.2304,32
+EXT_SOURCE_1,"[0.57, 0.70)",21299,0.0494,0.5248,37
+EXT_SOURCE_1,"[0.70, inf)",22939,0.0304,1.029,43
+EXT_SOURCE_1,Special,0,0.0,0.0,29
+EXT_SOURCE_1,Missing,138741,0.0853,-0.0598,29
+YEARS_EMPLOYED,"(-inf, 2.89)",69033,0.1118,-0.3603,26
+YEARS_EMPLOYED,"[2.89, 4.90)",38429,0.0951,-0.1794,28
+YEARS_EMPLOYED,"[4.90, 6.63)",22435,0.081,-0.0041,29
+YEARS_EMPLOYED,"[6.63, 10.78)",35836,0.0673,0.1963,31
+YEARS_EMPLOYED,"[10.78, 18.42)",23674,0.055,0.4114,33
+YEARS_EMPLOYED,"[18.42, inf)",12375,0.0428,0.6743,35
+YEARS_EMPLOYED,Special,0,0.0,0.0,29
+YEARS_EMPLOYED,Missing,44226,0.0548,0.415,33
+CREDIT_GOODS_RATIO,"(-inf, 1.10)",106421,0.064,0.2499,33
+CREDIT_GOODS_RATIO,"[1.10, 1.14)",37399,0.0704,0.1476,31
+CREDIT_GOODS_RATIO,"[1.14, 1.16)",14043,0.074,0.0945,31
+CREDIT_GOODS_RATIO,"[1.16, 1.21)",36546,0.0901,-0.1205,28
+CREDIT_GOODS_RATIO,"[1.21, 1.32)",27876,0.1082,-0.3232,25
+CREDIT_GOODS_RATIO,"[1.32, inf)",23510,0.1296,-0.5284,23
+CREDIT_GOODS_RATIO,Special,0,0.0,0.0,29
+CREDIT_GOODS_RATIO,Missing,213,0.0751,0.0781,30
+OCCUPATION_TYPE,"<ArrowStringArray>
+['Accountants', 'High skill tech staff']
+Length: 2, dtype: str",16954,0.0548,0.4153,32
+OCCUPATION_TYPE,"<ArrowStringArray>
+['Managers', 'IT staff']
+Length: 2, dtype: str",17455,0.0632,0.2629,31
+OCCUPATION_TYPE,"<ArrowStringArray>
+['Core staff', 'HR staff', 'Private service staff', 'Medicine staff', 'Secretaries', 'Realty agents']
+Length: 6, dtype: str",33237,0.0651,0.2314,31
+OCCUPATION_TYPE,"<ArrowStringArray>
+['Sales staff', 'Cleaning staff']
+Length: 2, dtype: str",29483,0.0969,-0.2008,28
+OCCUPATION_TYPE,"<ArrowStringArray>
+['Laborers', 'Cooking staff', 'Security staff']
+Length: 3, dtype: str",54422,0.1046,-0.2856,27
+OCCUPATION_TYPE,"<ArrowStringArray>
+['Waiters/barmen staff', 'Drivers', 'Low-skill Laborers']
+Length: 3, dtype: str",17541,0.1184,-0.4249,26
+OCCUPATION_TYPE,Special,0,0.0,0.0,29
+OCCUPATION_TYPE,Missing,76916,0.0654,0.2265,31
+ORGANIZATION_TYPE,"<ArrowStringArray>
+['Industry: type 12', 'Transport: type 1', 'Trade: type 4', 'Trade: type 6', 'University', 'Security Ministries', 'Military', 'Police', 'Culture', 'Bank', 'XNA', 'Insurance', 'School']
+Length: 13, dtype: str",61682,0.0546,0.4187,33
+ORGANIZATION_TYPE,"<ArrowStringArray>
+['Industry: type 6', 'Industry: type 5', 'Industry: type 9',            'Hotel',         'Services',         'Medicine',      'Electricity',     'Kindergarten',       'Government',
+    'Trade: type 2',    'Trade: type 5',        'Emergency',   'Legal Services',      'Advertising',         'Religion',            'Other', 'Industry: type 2']
+Length: 17, dtype: str",45338,0.0707,0.144,31
+ORGANIZATION_TYPE,"<ArrowStringArray>
+['Industry: type 7', 'Transport: type 2', 'Industry: type 10', 'Business Entity Type 1', 'Housing', 'Business Entity Type 2', 'Postal', 'Trade: type 1', 'Telecom', 'Industry: type 11', 'Mobile']
+Length: 11, dtype: str",23345,0.0831,-0.0315,29
+ORGANIZATION_TYPE,"<ArrowStringArray>
+['Transport: type 4', 'Business Entity Type 3', 'Trade: type 7']
+Length: 3, dtype: str",64928,0.0928,-0.1527,28
+ORGANIZATION_TYPE,"<ArrowStringArray>
+['Self-employed', 'Security', 'Industry: type 3']
+Length: 3, dtype: str",36014,0.101,-0.2468,27
+ORGANIZATION_TYPE,"<ArrowStringArray>
+['Trade: type 3', 'Industry: type 1', 'Industry: type 4', 'Realtor', 'Agriculture', 'Cleaning', 'Construction', 'Restaurant', 'Industry: type 13', 'Transport: type 3', 'Industry: type 8']
+Length: 11, dtype: str",14701,0.1144,-0.3861,26
+ORGANIZATION_TYPE,Special,0,0.0,0.0,29
+ORGANIZATION_TYPE,Missing,0,0.0,0.0,29
+REGION_RATING_CLIENT_W_CITY,"(-inf, 1.50)",27297,0.048,0.5543,34
+REGION_RATING_CLIENT_W_CITY,"[1.50, 2.50)",183687,0.0791,0.0218,30
+REGION_RATING_CLIENT_W_CITY,"[2.50, inf)",35024,0.1146,-0.388,26
+REGION_RATING_CLIENT_W_CITY,Special,0,0.0,0.0,29
+REGION_RATING_CLIENT_W_CITY,Missing,0,0.0,0.0,29
+NAME_EDUCATION_TYPE,"<ArrowStringArray>
+['Academic degree', 'Higher education']
+Length: 2, dtype: str",59876,0.0538,0.4345,36
+NAME_EDUCATION_TYPE,"<ArrowStringArray>
+['Incomplete higher', 'Secondary / secondary special', 'Lower secondary']
+Length: 3, dtype: str",186132,0.0894,-0.1114,28
+NAME_EDUCATION_TYPE,Special,0,0.0,0.0,29
+NAME_EDUCATION_TYPE,Missing,0,0.0,0.0,29
+YEARS_LAST_PHONE_CHANGE,"(-inf, 0.91)",69497,0.0968,-0.1991,28
+YEARS_LAST_PHONE_CHANGE,"[0.91, 2.06)",53059,0.0928,-0.1524,28
+YEARS_LAST_PHONE_CHANGE,"[2.06, 2.64)",18045,0.0821,-0.018,29
+YEARS_LAST_PHONE_CHANGE,"[2.64, 3.72)",27353,0.0735,0.1019,30
+YEARS_LAST_PHONE_CHANGE,"[3.72, 6.20)",57051,0.063,0.2662,31
+YEARS_LAST_PHONE_CHANGE,"[6.20, inf)",21002,0.0534,0.4421,32
+YEARS_LAST_PHONE_CHANGE,Special,0,0.0,0.0,29
+YEARS_LAST_PHONE_CHANGE,Missing,1,0.0,0.0,29
+FLOORSMAX_AVG,"(-inf, 0.15)",26175,0.0878,-0.0916,28
+FLOORSMAX_AVG,"[0.15, 0.19)",49981,0.0719,0.1247,31
+FLOORSMAX_AVG,"[0.19, 0.37)",31432,0.06,0.3196,33
+FLOORSMAX_AVG,"[0.37, inf)",16051,0.0494,0.5246,35
+FLOORSMAX_AVG,Special,0,0.0,0.0,29
+FLOORSMAX_AVG,Missing,122369,0.0922,-0.146,28
+YEARS_ID_PUBLISH,"(-inf, 2.81)",35879,0.1029,-0.2668,28
+YEARS_ID_PUBLISH,"[2.81, 5.22)",32603,0.0949,-0.1773,28
+YEARS_ID_PUBLISH,"[5.22, 7.90)",39384,0.0877,-0.0901,29
+YEARS_ID_PUBLISH,"[7.90, 11.12)",53134,0.079,0.0239,29
+YEARS_ID_PUBLISH,"[11.12, 11.56)",15627,0.073,0.1097,30
+YEARS_ID_PUBLISH,"[11.56, inf)",69381,0.0618,0.288,31
+YEARS_ID_PUBLISH,Special,0,0.0,0.0,29
+YEARS_ID_PUBLISH,Missing,0,0.0,0.0,29
+FLAG_DOCUMENT_3,"(-inf, 0.50)",71198,0.0615,0.2929,31
+FLAG_DOCUMENT_3,"[0.50, inf)",174810,0.0886,-0.1012,29
+FLAG_DOCUMENT_3,Special,0,0.0,0.0,29
+FLAG_DOCUMENT_3,Missing,0,0.0,0.0,29
+AMT_ANNUITY,"(-inf, 13560.75)",42483,0.0684,0.1786,31
+AMT_ANNUITY,"[13560.75, 16490.25)",18549,0.0775,0.0447,30
+AMT_ANNUITY,"[16490.25, 29967.75)",97526,0.088,-0.0941,28
+AMT_ANNUITY,"[29967.75, 31655.25)",12470,0.1123,-0.3655,25
+AMT_ANNUITY,"[31655.25, 42563.25)",42187,0.084,-0.0437,29
+AMT_ANNUITY,"[42563.25, inf)",32783,0.0606,0.3077,33
+AMT_ANNUITY,Special,0,0.0,0.0,29
+AMT_ANNUITY,Missing,10,0.0,0.0,29
+YEARS_REGISTRATION,"(-inf, 2.83)",36143,0.0956,-0.1859,29
+YEARS_REGISTRATION,"[2.83, 15.22)",113357,0.0866,-0.0761,29
+YEARS_REGISTRATION,"[15.22, 19.02)",25555,0.0786,0.0288,29
+YEARS_REGISTRATION,"[19.02, 25.14)",36438,0.0712,0.1365,30
+YEARS_REGISTRATION,"[25.14, 29.62)",18221,0.0603,0.3135,31
+YEARS_REGISTRATION,"[29.62, inf)",16294,0.0546,0.4187,31
+YEARS_REGISTRATION,Special,0,0.0,0.0,29
+YEARS_REGISTRATION,Missing,0,0.0,0.0,29
+REG_CITY_NOT_LIVE_CITY,"(-inf, 0.50)",226835,0.0773,0.0478,30
+REG_CITY_NOT_LIVE_CITY,"[0.50, inf)",19173,0.1218,-0.4573,27
+REG_CITY_NOT_LIVE_CITY,Special,0,0.0,0.0,29
+REG_CITY_NOT_LIVE_CITY,Missing,0,0.0,0.0,29
+OWN_CAR_AGE,"(-inf, 7.50)",34026,0.0575,0.3645,35
+OWN_CAR_AGE,"[7.50, 11.50)",15946,0.0693,0.1651,32
+OWN_CAR_AGE,"[11.50, 16.50)",16337,0.085,-0.0557,29
+OWN_CAR_AGE,"[16.50, inf)",17420,0.0937,-0.1637,27
+OWN_CAR_AGE,Special,0,0.0,0.0,29
+OWN_CAR_AGE,Missing,162279,0.0849,-0.055,29
+NAME_FAMILY_STATUS,"<ArrowStringArray>
+['Unknown', 'Widow']
+Length: 2, dtype: str",12881,0.059,0.3369,31
+NAME_FAMILY_STATUS,"<ArrowStringArray>
+['Married']
+Length: 1, dtype: str",157130,0.0756,0.0707,30
+NAME_FAMILY_STATUS,"<ArrowStringArray>
+['Separated']
+Length: 1, dtype: str",15797,0.0812,-0.0066,29
+NAME_FAMILY_STATUS,"<ArrowStringArray>
+['Single / not married']
+Length: 1, dtype: str",36377,0.0975,-0.2072,28
+NAME_FAMILY_STATUS,"<ArrowStringArray>
+['Civil marriage']
+Length: 1, dtype: str",23823,0.1001,-0.2365,28
+NAME_FAMILY_STATUS,Special,0,0.0,0.0,29
+NAME_FAMILY_STATUS,Missing,0,0.0,0.0,29
