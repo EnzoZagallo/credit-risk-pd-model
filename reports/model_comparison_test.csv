@@ -1,0 +1,4 @@
+,Scorecard,LightGBM,Difference
+Gini,0.5001,0.5414,0.0413
+KS,0.3695,0.4018,0.0324
+Brier,0.0685,0.0672,-0.0013
